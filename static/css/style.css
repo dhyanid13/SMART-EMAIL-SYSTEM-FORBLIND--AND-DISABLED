@@ -1,0 +1,46 @@
+       .banner{
+           height: 400px;
+           width: 100%;
+        background-image: url(images/sup.jpeg);
+       }
+       .text1{
+           padding-top: 150px;
+           text-align: center;
+           color: rgb(79,210,230);
+           font-weight: bold;
+           font-size: 50px;
+       }
+       .h{
+           text-align: center;
+           padding-left: 100px;
+           padding-right: 100px;
+           letter-spacing: 1px;
+           font-size: 30px;
+       }
+       .babble{
+           padding-top: 20px;
+           
+       }
+       .reachout{
+           padding-top: 20px;
+           
+           
+       }
+       #header{
+           color: rgb(9,30,48);
+           font-size: 30px;
+           font-weight: 200;
+       }
+       #text2{
+           color: rgb(79,210,230);
+           font-size: 18px;
+       }
+   
+       .head{
+           text-align: center;
+           font-size: 35px;
+           text-decoration-color: aqua;
+           color:  color: rgb(9,30,48);
+           text-decoration-line: underline;
+           font-weight: bold;
+       }

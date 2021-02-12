@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>SEJCOMP</title>
+    
+    <style>
+        body{
+            background-color:black;
+        }
+        h2{
+            color:firebrick;
+            font-family:sans-serif;
+            font-weight:bold;
+            font-size:50px;
+        }
+        h1{
+            color:skyblue;
+            font-family:sans-serif;
+            font-weight:bold;
+            font-size:100px;
+        }
+        button{
+            
+            float: left;
+            width: 25%;
+            padding:0px;
+            background-color: transparent;
+        }
+    </style>
+    </head>
+<body>
+    
+    <h1>VOICE BASED EMAIL SYSTEM</h1>
+    <button onmouseover="location.href='{% url 'script9' %}'"><h2>SPEAK</h2></button>
+    
+    <button onmouseover="location.href='{% url 'script4' %}'" onclick="location.href='{% url 'script3' %}'"><h2>AT Your Service</h2></button>
+    <button onmouseover="location.href='{% url 'script2' %}'" onclick="location.href='{% url 'script1' %}'"><h2>CONTACT US</h2></button>
+    <button onmouseover="location.href='{% url 'script5' %}'" onclick="location.href='{% url 'script6' %}'"><h2>FAQs</h2></button>
+    <button onmouseover="location.href='{% url 'script7' %}'" onclick="location.href='{% url 'script8' %}'"><h2>About</h2></button>
+        
+	
+    
+    </body>
+
+</html>
